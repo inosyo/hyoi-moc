@@ -1,0 +1,11 @@
+platform :ios,'10.0'
+use_frameworks!
+
+def install_pods
+  pod 'SkyWay'
+end
+
+target 'swift_skyway' do
+  install_pods
+end
+
